@@ -412,7 +412,7 @@
                     {{- $avatarFilename := printf "%s.jpg" $page.File.BaseFileName -}}
                     {{- $avatarPath := printf "static/authors/%s" $avatarFilename -}}
                     {{ if fileExists $avatarPath }}
-                      <img src="{{ printf "/authors/%s" $avatarFilename | relURL }}" alt="Foto de Perfil de {{ $page.Title }}" loading="lazy">
+                      <img src="{{ printf "authors/%s" $avatarFilename | relURL }}" alt="Foto de Perfil de {{ $page.Title }}" loading="lazy">
                     {{- else }}
                       <img src="/images/def-author.png" alt="Foto de Perfil Padrão" loading="lazy">
                     {{- end }}
@@ -489,7 +489,7 @@
         <h3 class="section-title">Galeria</h3>
         <div class="gallery-grid">
             {{- range .Params.screenshots -}}
-            {{- $path := printf "/games/%s/%s/%s" $.Params.game $.File.BaseFileName . }}
+            {{- $path := printf "games/%s/%s/%s" $.Params.game $.File.BaseFileName . }}
             <img src="{{ $path | relURL }}" alt="Prévia de {{ $Title }} traduzido por {{ $creator }}" loading="lazy">
             {{- end }}
         </div>

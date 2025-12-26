@@ -58,7 +58,7 @@
       <link>{{ $link }}</link>
       <pubDate>{{ (time .Date).Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       <guid>{{ $link }}</guid>
-      <description>{{ if $gamePage }}{{ printf "<img src=\"%s\" alt=\"Capa de %s\" /><br>" (printf "/games/%s/grid.jpg" $gameID | absURL) $gamePage.Title | html }}{{ end }}{{ printf "<p><strong>Patch por:</strong> %s</p>" (delimit $creators ", ") | html }}{{ printf "<p><strong>Status:</strong> %s</p>" $patch.Params.status | html }}{{ printf "<p><strong>Plataformas:</strong> %s</p>" (delimit $patch.Params.platforms ", ") | html }}{{ $patch.Summary | html }}</description>
+      <description>{{ if $gamePage }}{{ printf "<img src=\"%s\" alt=\"Capa de %s\" /><br>" (printf "games/%s/grid.jpg" $gameID | absURL) $gamePage.Title | html }}{{ end }}{{ printf "<p><strong>Patch por:</strong> %s</p>" (delimit $creators ", ") | html }}{{ printf "<p><strong>Status:</strong> %s</p>" $patch.Params.status | html }}{{ printf "<p><strong>Plataformas:</strong> %s</p>" (delimit $patch.Params.platforms ", ") | html }}{{ $patch.Summary | html }}</description>
     </item>
     {{- end }}
   </channel>
