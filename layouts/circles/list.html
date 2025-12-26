@@ -20,7 +20,8 @@
 <script>
   new SearchSystem({
     resultsSelector: '#circlesGrid',
-    itemSelector: '.circle-item'
+    itemSelector: '.circle-item',
+    pagefindPath: "{{ "pagefind/pagefind.js" | relURL }}"
   });
 </script>
 {{ end }}

@@ -20,7 +20,8 @@
 <script>
   new SearchSystem({
     resultsSelector: '#authorsGrid',
-    itemSelector: '.user-card'
+    itemSelector: '.user-card',
+    pagefindPath: "{{ "pagefind/pagefind.js" | relURL }}"
   });
 </script>
 {{ end }}

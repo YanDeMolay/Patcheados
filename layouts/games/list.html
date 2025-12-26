@@ -20,7 +20,8 @@
 <script>
   new SearchSystem({
     resultsSelector: '#gamesGrid',
-    itemSelector: '.game-item'
+    itemSelector: '.game-item',
+    pagefindPath: "{{ "pagefind/pagefind.js" | relURL }}"
   });
 </script>
 {{ end }}

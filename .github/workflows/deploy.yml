@@ -24,6 +24,9 @@ jobs:
 
       - run: hugo --minify
 
+      - name: Pagefind
+        run: npx pagefind --site public
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

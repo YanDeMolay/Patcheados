@@ -12,6 +12,7 @@ class SearchSystem {
     this.currentResults = [];
     this.allResultsData = [];
     this.pageType = this.detectPageType();
+    this.pagefindPath = config.pagefindPath || "/pagefind/pagefind.js";
     this.init();
   }
 
@@ -24,7 +25,7 @@ class SearchSystem {
   }
 
   async init() {
-    this.pagefind = await import("../pagefind/pagefind.js");
+    this.pagefind = await import(this.pagefindPath);
     await this.pagefind.init();
     this.createNoResultsMessage();
     this.createPaginationContainer();
