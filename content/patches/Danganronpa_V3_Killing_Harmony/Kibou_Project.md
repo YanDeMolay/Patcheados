@@ -35,7 +35,7 @@ download:
     region: "GLOBAL"
     completion: "Parcial"
     release: "25/11/2025"
-    url: "https://github.com/Kibou-Project/Danganronpa-PTBR-Translations/releases/tag/v0.2
+    url: "https://github.com/Kibou-Project/Danganronpa-PTBR-Translations/releases/tag/v0.2"
 resource:
   - name: "Guia na Steam"
     provider: "Steam"
@@ -55,4 +55,5 @@ screenshots: []
 
 
 *"Tudo que começa com uma mentira, termina com uma decepção."*
+
 
