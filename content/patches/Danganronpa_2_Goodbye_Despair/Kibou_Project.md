@@ -34,6 +34,23 @@ credits:
     - "Chip"
     - "Caminar"
     - "Panzerforge"
+download:
+  - platform: "PC"
+    provider: "GitHub"
+    format: "Instalador"
+    version: "4.2025-3"
+    gameversion: "1.0"
+    region: "GLOBAL"
+    completion: "100%"
+    release: "27/08/2018"
+    url: "https://github.com/Kibou-Project/Danganronpa-PTBR-Translations/releases/tag/v0.2"
+resource:
+  - name: "Guia na Steam"
+    provider: "Steam"
+    url: "https://steamcommunity.com/sharedfiles/filedetails/?id=3487539806"
+install:
+  - platform: "PC"
+    tutorial: generic_installer
 progress:
   - label: "História Principal"
     value: "100%"
