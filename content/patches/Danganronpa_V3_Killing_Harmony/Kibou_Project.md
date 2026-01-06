@@ -50,10 +50,6 @@ progress:
     value: "Parcial"
   - label: "Minigames"
     value: "Parcial"
-screenshots: []
 ---
 
-
 *"Tudo que começa com uma mentira, termina com uma decepção."*
-
-

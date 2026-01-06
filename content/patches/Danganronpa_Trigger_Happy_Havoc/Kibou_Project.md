@@ -13,16 +13,16 @@ graphics: true
 dub: false
 credits:
   "Edição Gráfica":
-    - "risu"
+    - "Risu"
     - "YanDM"
   "Revisão":
     - "Plot"
-    - "risu"
-    - "Sushi_Joji"
+    - "Risu"
+    - "SushiJoji"
     - "YanDM"
   "Tradução":
-    - "risu"
-    - "Sushi_Joji"
+    - "Risu"
+    - "SushiJoji"
     - "YanDM"
     - "サントス"
 download:

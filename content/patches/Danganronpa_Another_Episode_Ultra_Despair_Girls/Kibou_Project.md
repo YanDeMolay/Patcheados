@@ -2,8 +2,6 @@
 game: "Danganronpa_Another_Episode_Ultra_Despair_Girls"
 circle:
   - "Kibou_Project"
-title: "Danganronpa Another Episode: Ultra Despair Girls"
-title_type: translation
 platforms:
   - "PC"
 status: "Concluído"
@@ -19,7 +17,7 @@ credits:
     - "SushiJoji"
   "Tradução":
     - "YanDM"
-    - "Yubii is"
+    - "Yubii_is"
     - "SushiJoji"
 download:
   - platform: "PC"
@@ -45,7 +43,6 @@ progress:
     value: "100%"
   - label: "Vídeos"
     value: "100%"
-screenshots: []
 ---
 
 *"Coragem não é a ausência do medo, mas o triunfo sobre ele."*

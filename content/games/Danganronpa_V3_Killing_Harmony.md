@@ -23,10 +23,10 @@ sns:
   - name: "Steam"
     url: "https://store.steampowered.com/app/567640/Danganronpa_V3_Killing_Harmony/"
 tags:
-  - "mistério"
-  - "psicológico"
-  - "visual_novel"
   - "investigação"
+  - "mistério"
+  - "terror_psicológico"
+  - "visual_novel"
 ---
 
 Esqueça o que você sabia sobre Danganronpa e junte-se a um elenco

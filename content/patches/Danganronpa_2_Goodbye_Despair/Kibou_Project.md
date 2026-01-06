@@ -30,7 +30,7 @@ credits:
     - "Sominterre"
     - "MVDA"
     - "Razzee"
-    - "Caio Felipe"
+    - "Caio_Felipe"
     - "Chip"
     - "Caminar"
     - "Panzerforge"
@@ -58,7 +58,6 @@ progress:
     value: "100%"
   - label: "Gráficos"
     value: "100%"
-screenshots: []
 ---
 
 *"Quero encontrar a ilha desconhecida, quero saber quem sou quando nela estiver."*

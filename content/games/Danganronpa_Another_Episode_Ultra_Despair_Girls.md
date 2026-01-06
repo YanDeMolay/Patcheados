@@ -21,7 +21,7 @@ sns:
 tags:
   - "ação"
   - "aventura"
-  - "shooter"
+  - "tiro"
   - "visual_novel"
 ---
 
